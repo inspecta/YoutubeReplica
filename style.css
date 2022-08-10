@@ -72,3 +72,23 @@ input {
   margin-right: 22px;
   padding: 25px;
 }
+
+/*  Sidebar    */
+#sidebar {
+  float: left;
+  left: 79%;
+  width: 28%;
+  min-height: 450px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+#sidebar .title {
+  padding: 2px;
+  font-weight: bold;
+}
+
+#right-hand-side {
+  margin-bottom: 10px;
+  display: flex;
+}
