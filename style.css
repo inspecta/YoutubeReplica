@@ -59,3 +59,16 @@ input {
   margin: 0px auto;
   width: 100%;
 }
+
+#main-article {
+  float: left;
+  width: 60%;
+  min-height: 450px;
+  margin-top: 10px;
+}
+
+#header #video-caption {
+  float: left;
+  margin-right: 22px;
+  padding: 25px;
+}
