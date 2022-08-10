@@ -62,7 +62,7 @@ input {
 
 #main-article {
   float: left;
-  width: 60%;
+  width: 50%;
   min-height: 450px;
   margin-top: 10px;
 }
@@ -75,9 +75,9 @@ input {
 
 /*  Sidebar    */
 #sidebar {
-  float: left;
+  float: right;
   left: 79%;
-  width: 28%;
+  width: 40%;
   min-height: 450px;
   margin-top: 10px;
   margin-left: 20px;
@@ -90,5 +90,41 @@ input {
 
 #right-hand-side {
   margin-bottom: 10px;
+}
+
+#right-hand-side #thumbnails {
   display: flex;
 }
+
+#right-hand-side #thumbnails #title {
+  font-size: 15px;
+  padding: 15px;
+  position: relative;
+  padding-top: 20px;
+}
+#right-hand-side #thumbnails #author {
+  font-size: 15px;
+  padding: 15px;
+  height: 0px;
+}
+
+#right-hand-side #thumbnails #views {
+  font-size: 15px;
+  padding: 15px;
+  height: 0px;
+}
+
+.comment {
+  min-width: max(381px, 50% - 6px);
+  margin-right: 0;
+}
+
+#comments-table {
+  width: 100%;
+  border: 1px solid grey;
+}
+
+td {
+  padding: 15px;
+}
+
