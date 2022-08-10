@@ -35,6 +35,7 @@ input {
   width: 360px;
   margin-left: 22px;
 }
+
 #header .middle {
   display: flex;
   padding-left: 200px;
@@ -123,4 +124,10 @@ td {
 
 .right-hand-videos ul li .video-details .views {
   font-size: 12px;
+}
+
+.right .right-hand-nav-items a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
 }
