@@ -73,47 +73,7 @@ input {
   padding: 25px;
 }
 
-/*  Sidebar    */
-/* #sidebar {
-  float: right;
-  left: 79%;
-  width: 40%;
-  min-height: 450px;
-  margin-top: 10px;
-  margin-left: 20px;
-}
-
-#sidebar .title {
-  padding: 2px;
-  font-weight: bold;
-}
-
-#right-hand-side {
-  margin-bottom: 10px;
-}
-
-#right-hand-side #thumbnails {
-  display: flex;
-}
-
-#right-hand-side #thumbnails #title {
-  font-size: 15px;
-  padding: 15px;
-  position: relative;
-  padding-top: 20px;
-}
-#right-hand-side #thumbnails #author {
-  font-size: 15px;
-  padding: 15px;
-  height: 0px;
-}
-
-#right-hand-side #thumbnails #views {
-  font-size: 15px;
-  padding: 15px;
-  height: 0px;
-} */
-
+/*Video Comments */
 .comment {
   min-width: max(381px, 50% - 6px);
   margin-right: 0;
@@ -127,6 +87,8 @@ input {
 td {
   padding: 15px;
 }
+
+/* Right hand sidebar - Video thumbnails*/
 
 .right-hand-videos {
   float: right;
