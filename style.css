@@ -50,3 +50,12 @@ input {
   color: black;
   float: right;
 }
+
+/*
+  Main content
+*/
+.main-content {
+  padding: 0px;
+  margin: 0px auto;
+  width: 100%;
+}
